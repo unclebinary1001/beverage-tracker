@@ -20,4 +20,4 @@ To install the application, you can find a testable release version of the APK f
 4.  To view your drinking history, tap the history icon in the top right corner of the main screen.
 
 ## App Demo
-![App Demo](./demo.gif)
+ <img src="./demo.gif" alt="App Demo" width="300" height="638">
