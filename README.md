@@ -18,3 +18,6 @@ To install the application, you can find a testable release version of the APK f
 2.  On the main screen, tap on the icon of the beverage you consumed.
 3.  Enter the amount in milliliters and tap "OK".
 4.  To view your drinking history, tap the history icon in the top right corner of the main screen.
+
+## App Demo
+![App Demo](./demo.gif)
