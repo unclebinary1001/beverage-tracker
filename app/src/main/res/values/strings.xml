@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BeverageTracker</string>
+    <string name="amount_ml">Amount (ml)</string>
+    <string name="enter_amount_for">Enter amount for</string>
+    <string name="todo">TODO</string>
+    <string name="choose_a_beverage">Choose a beverage</string>
+</resources>
