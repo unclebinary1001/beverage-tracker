@@ -61,10 +61,17 @@ class HistoryActivity : AppCompatActivity() {
 
     private fun getBeverageIcon(beverageName: String): Int {
         return when (beverageName) {
+            "Empty" -> R.drawable.empty
             "Water" -> R.drawable.water
             "Coffee" -> R.drawable.coffee
             "Tea" -> R.drawable.tea
             "Juice" -> R.drawable.juice
+            "Milk" -> R.drawable.milk
+            "Energy" -> R.drawable.energy_drink
+            "Smoothie" -> R.drawable.smoothie
+            "Soda" -> R.drawable.soda
+            "Wine" -> R.drawable.wine
+            "Beer" -> R.drawable.beer
             else -> R.drawable.ic_launcher_foreground // Default icon
         }
     }
