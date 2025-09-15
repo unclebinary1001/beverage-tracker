@@ -98,8 +98,10 @@ class MainActivity : AppCompatActivity() {
             .setTitle("Fluid Intake")
             .setView(dialogView)
             .setPositiveButton("OK") { _, _ ->
-                val amount = inputField.text.toString().toIntOrNull()
+                var amount = inputField.text.toString().toIntOrNull()
                 if (amount != null) {
+                    if (beverage.equals("Empty"))
+                        amount = -amount
                     historyManager.addBeverageRecord(beverage, amount) // Use HistoryManager
                     Toast.makeText(this, "$beverage: $amount ml", Toast.LENGTH_SHORT).show()
                 } else {
